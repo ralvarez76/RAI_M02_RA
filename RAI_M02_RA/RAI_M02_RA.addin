@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Super Tagger</Text>
+    <Description>Adds tags to multiple categories</Description>
+    <Assembly>RAI_M02_RA.dll</Assembly>
+    <FullClassName>RAI_M02_RA.Command1</FullClassName>
+    <ClientId>95abc4a4-a577-4f3f-bae4-03a205b63d56</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAI_M02_RA</Name>
+    <Assembly>RAI_M02_RA.dll</Assembly>
+    <FullClassName>RAI_M02_RA.App</FullClassName>
+    <ClientId>46af4454-ff2b-483c-a44d-3af990cc4c66</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
